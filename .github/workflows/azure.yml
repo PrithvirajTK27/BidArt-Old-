@@ -31,14 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-    - name: 'Checkout Github Action'
-      uses: actions/checkout@master
-
-    - uses: azure/docker-login@v1
-      with:
-        login-server: contoso.azurecr.io
-        username: ${{ secrets.REGISTRY_USERNAME }}
-        password: ${{ secrets.REGISTRY_PASSWORD }}
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v2
