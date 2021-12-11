@@ -1,0 +1,124 @@
+.logo_pos_chat {
+    align-items: center;
+    text-align: center;
+    padding-top: 6em;
+    justify-content: center;
+    position: relative;
+    transition: all .3s ease .15s;
+}
+.logo_pos_chat_2 {
+    position: fixed;
+    top: 14px;
+    left: 20px;
+    z-index: 1;
+    height: 90px;
+    width: 170px;
+    transition: all .3s ease .15s;
+}
+    .logo_pos_chat_2 img {
+        height: 90px;
+        width: 170px;
+    }
+
+    .bg_chat {
+        background-image: url(assets/background_chat.svg);
+        position: relative;
+        display: block;
+        width: 100%;
+        background-position: top center;
+    }
+
+.menu_act {
+    position: relative;
+    float: left;
+    top: 0;
+    width: auto;
+    height: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.menubar {
+    left: 45%;
+    width: 116px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+.lit_menu {
+    width: 116px;
+    float: left;
+}
+    .lit_menu p {
+        width: 116px;
+        height: auto;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        background: linear-gradient(to right, #E969A4, #C32BAD, #1DB9C3 );
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+.frame {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height:35%;
+    background: linear-gradient(180deg, rgba(231, 231, 231, 0.3) 0%, rgba(196, 196, 196, 0) 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+}
+.rec {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+    .rec p {
+        font-size: 30px;
+    }
+
+    .rec img {
+        display: flexbox;
+        width:auto;
+        height:auto;
+    }
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+.footer_body {
+    color: black;
+}
+
+.each_footer {
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}

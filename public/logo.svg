@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="512" height="512" viewBox="0 0 512 512" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 256.1 256.1)" id="Cz2q5GHyjRtdNbdkS4Hg4"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0.2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.5;" vector-effect="non-scaling-stroke"  transform=" translate(-256, -256)" d="M 0 108.6116 C 0 48.627069999999996 48.62707 0 108.6116 0 L 403.38839 0 L 403.38839 0 C 463.37292 0 511.99999 48.62707 511.99999 108.6116 L 511.99999 403.38839 L 511.99999 403.38839 C 511.99999 463.37292 463.37292 511.99999 403.38839 511.99999 L 108.61160000000001 511.99999 L 108.61160000000001 511.99999 C 48.62707000000001 511.99999 1.4210854715202004e-14 463.37292 1.4210854715202004e-14 403.38839 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 250.1 170.11)" style="" id="CJjZPcF0VcfymBhmbnAdb"  >
+		<text xml:space="preserve" font-family="Arial" font-size="194" font-style="italic" font-weight="700" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-187.4" y="60.94" >Bid</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 306.66 364.46)" style="" id="a3flkswOwjur7S8vCdCTY"  >
+		<text xml:space="preserve" font-family="Arial" font-size="174" font-style="normal" font-weight="normal" line-height="1.16" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-232.84" y="54.66" >Art.</tspan></text>
+</g>
+</svg>

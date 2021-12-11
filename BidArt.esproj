@@ -10,6 +10,26 @@
   <ItemGroup>
     <Script Include="**" Exclude="*.esproj;**\node_modules\**" />
   </ItemGroup>
+  <ItemGroup>
+    <Script Remove="src\components\layout\NewFolder\**" />
+    <Script Remove="src\components\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Script Remove="public\logo.svg" />
+    <Script Remove="src\Account.svg" />
+    <Script Remove="src\App.css" />
+    <Script Remove="src\App.js" />
+    <Script Remove="src\bid.svg" />
+    <Script Remove="src\components\assets\edit.svg" />
+    <Script Remove="src\components\Sidebar.jsx" />
+    <Script Remove="src\components\side_bar_jsx" />
+    <Script Remove="src\explore.js" />
+    <Script Remove="src\explore.svg" />
+    <Script Remove="src\index.html" />
+    <Script Remove="src\Menu_Button.svg" />
+    <Script Remove="src\Notification.svg" />
+    <Script Remove="src\publish.svg" />
+  </ItemGroup>
   <!-- This target is copied from the ASP.NET SPA template in order to ensure node_modules are in place. -->
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
